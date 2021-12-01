@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="255.0" layoutY="14.0" prefHeight="16.0" prefWidth="115.0" text="Stwórz swoją postać" />
+      <Label alignment="CENTER" layoutX="60.0" layoutY="71.0" prefHeight="18.0" prefWidth="44.0" text="Imię:" />
+      <TextField layoutX="60.0" layoutY="100.0" prefHeight="18.0" prefWidth="115.0" />
+      <ChoiceBox layoutX="313.0" layoutY="100.0" prefWidth="150.0" />
+      <Label alignment="CENTER" layoutX="313.0" layoutY="71.0" prefHeight="18.0" prefWidth="44.0" text="Klasa:" />
+      <Button layoutX="533.0" layoutY="474.0" mnemonicParsing="false" text="Zakończ" />
+      <Label alignment="CENTER" layoutX="46.0" layoutY="175.0" prefHeight="18.0" prefWidth="70.0" text="Wygląd:" />
+      <Slider layoutX="12.0" layoutY="237.0" />
+      <Slider layoutX="12.0" layoutY="274.0" />
+      <Slider layoutX="12.0" layoutY="315.0" />
+      <Label alignment="CENTER" layoutX="39.0" layoutY="356.0" prefHeight="18.0" prefWidth="84.0" text="kolor włosów:" />
+      <ColorPicker layoutX="20.0" layoutY="381.0">
+         <value>
+            <Color green="0.501960813999176" />
+         </value>
+      </ColorPicker>
+      <CheckBox layoutX="207.0" layoutY="217.0" mnemonicParsing="false" text="Otwieranie zamków" />
+      <Label alignment="CENTER" layoutX="191.0" layoutY="178.0" prefHeight="18.0" prefWidth="84.0" text="Atut:" />
+      <CheckBox layoutX="207.0" layoutY="247.0" mnemonicParsing="false" text="Zdolności magiczne" />
+      <CheckBox layoutX="207.0" layoutY="277.0" mnemonicParsing="false" text="Język obcy" />
+      <CheckBox layoutX="207.0" layoutY="309.0" mnemonicParsing="false" text="Leczenie" />
+      <CheckBox layoutX="207.0" layoutY="338.0" mnemonicParsing="false" text="Skradanie" />
+      <ProgressBar layoutX="370.0" layoutY="187.0" prefWidth="200.0" progress="0.0" />
+      <Label alignment="CENTER" layoutX="334.0" layoutY="166.0" prefHeight="18.0" prefWidth="176.0" text="Pozostało punktów:" />
+      <ImageView fitHeight="137.0" fitWidth="186.0" layoutX="388.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@T-Posing_Shrek.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
